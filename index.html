@@ -1,0 +1,26 @@
+---
+layout: default
+title: WIP | Home | Sruti Vijaykumar
+---
+<div class="py-12">
+<p class="text-3xl text-center font-thin leading-relaxed font-intro">I'm a <strong class="font-bold">UX and Accessibility Specialist</strong><br/>
+  on a mission to make technology<br/>
+  enjoyable and inclusive<br/>
+  using human-centered research.<br/>
+</p>
+</div>
+
+{%- for project in site.data.projects -%}
+
+<div class="bg-white grid lg:grid-cols-2 grid-cols-1 lg:mx-20 mb-12 rounded shadow">
+  <div class="m-12">
+    <h3 class="text-2xl font-bold py-4">{{ project.title }}</h3>
+    <p class="text-xs font-bold text-gray-600 py-6 lg:order-{{ project.content-sequence }}">{{ project.tags | join: ", " }}</p>
+    <p class="text-gray-500 pb-8">{{ project.description }}</p>
+    <a href="{{ project.cta-link }}" class="hover:no-underline focus:no-underline underline text-brand">{{ project.cta }}</a>
+  </div>
+  <div class="m-12 overflow-hidden rounded-2xl lg:order-{{ project.image-sequence }}">
+    <img src="{{ project.image-link }}" alt="{{ project.image-description }}" class="hover:opacity-75 transform duration-700 ease-in-out hover:scale-110"/>
+  </div>
+</div>
+{% endfor %}
