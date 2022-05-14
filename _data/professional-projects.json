@@ -17,7 +17,7 @@
         "image-link": "assets/images/Packages.webp",
         "image-description": "Stacked shipping packages",
         "cta": "Learn more about the website",
-        "cta-link": "#",
+        "cta-link": "/uxr-shipping-website",
         "image-sequence": "last",
         "content-sequence": "first"
     },
@@ -28,7 +28,7 @@
         "image-link": "assets/images/A11yCollage.webp",
         "image-description": "Keywords related to accessibility",
         "cta": "Learn more about prototyping policies",
-        "cta-link": "#",
+        "cta-link": "/accessibility-audits-remediation",
         "image-sequence": "first",
         "content-sequence": "last"
     }
