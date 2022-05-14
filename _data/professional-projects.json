@@ -6,7 +6,7 @@
         "image-link": "assets/images/stethoscope.jpeg",
         "image-description": "Stethoscope, a medical device of doctors.",
         "cta": "Learn more about UX research for medical devices",
-        "cta-link": "#",
+        "cta-link": "/uxr-medical-devices",
         "image-sequence": "first",
         "content-sequence": "last"
     },
