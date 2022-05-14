@@ -1,0 +1,35 @@
+[
+  {
+      "title": "TalkBox: A DIY Communication Board",
+      "tags": ["Physical Computing", "Accessibility", "UX Research and Design"],
+      "description": "Fabricating a low-cost open-source communication board for non-verbal users and creating engaging DIY assembly instructions for novice makers.",
+      "image-link": "assets/images/TalkBox.jpg",
+      "image-description": "Internals of talkbox showing circuitry and touch panels.",
+      "cta": "Learn more about TalkBox",
+      "cta-link": "#",
+      "image-sequence": "first",
+      "content-sequence": "last"
+  },
+  {
+      "title": "STEAM Success Foundation Website",
+      "tags": ["Accessibility", "UX Research & Design", "Cross-functional team"],
+      "description": "Designing an accessible website for a non-profit that promotes the organization's values, increases donations, and is accessible to people with disabilities.",
+      "image-link": "assets/images/Group.png",
+      "image-description": "Homepage page of STEAM success foundation.",
+      "cta": "Learn more about the website",
+      "cta-link": "#",
+      "image-sequence": "last",
+      "content-sequence": "first"
+  },
+  {
+      "title": "UX Research to influence policies",
+      "tags": ["Design Thinking", "UX Research", "Public Policy"],
+      "description": "Working with The United Way of Central Maryland and Politicians to design prototypes of policies that can bring financial stability to low-income families in Maryland.",
+      "image-link": "assets/images/Policy Change.png",
+      "image-description": "Stack of papers showing storyboards and graphs.",
+      "cta": "Learn more about prototyping policies",
+      "cta-link": "#",
+      "image-sequence": "first",
+      "content-sequence": "last"
+  }
+]

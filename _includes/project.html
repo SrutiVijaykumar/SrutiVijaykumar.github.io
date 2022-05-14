@@ -1,0 +1,12 @@
+<div class="bg-white rounded-sm shadow-md">
+  <div class=" grid place-items-center">
+    <div class="overflow-hidden rounded-sm m-4">
+      <img src="{{ project.image-link }}" alt="{{ project.image-description }}" class=" h-72 w-72 object-cover hover:opacity-75 transform duration-700 ease-in-out hover:scale-110"/>
+    </div>
+  </div>
+
+  <section class="mx-4">
+    <a href="{{ project.cta-link }}" class="hover:no-underline focus:no-underline underline text-brand"><h3 class="text-2xl font-bold py-4 text-brand">{{ project.title }}</h3></a>
+    <p class="text-gray-500 pb-8">{{ project.description }}</p>
+  </section>
+</div>

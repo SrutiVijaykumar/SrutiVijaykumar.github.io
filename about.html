@@ -1,0 +1,108 @@
+---
+layout: default
+title:  WIP | Me | Sruti Vijaykumar
+permalink: /about
+---
+
+
+<div class="container-l lg:px-24 sm:px-10">
+  <section class="pt-8">
+    <h2 class="font-sans leading-normal text-lg font-medium">
+      Hi, I'm Sruti (pronounced Sroo-Tea), and my pronouns are she/her. <br/>
+    </h2>
+    <br/>
+    <p class="font-sans leading-normal">
+      As a User Experience Researcher, I have made products more efficient, inclusive, and, in some cases, life-saving! I developed an interest in accessibility while studying at the University of Maryland, Baltimore County. Initially intimidated by it, I quickly learned how straightforward and rewarding it could be and wanted to help others in tech  (and everyone else in my life ;-)) understand it better. I honed my craft while working at UserWorks, Inc., in Silver Spring, Maryland, as a UX & Accessibility Specialist for three years. I am looking for new opportunities at the moment. My vision is to see accessibility be seamlessly integrated into every product's development process.
+    </p>
+
+    <div class="my-4">
+      <a href="" class="hover:no-underline focus:no-underline underline text-brand">Talk on accessibility at DCUX 2019</a>
+    </div>
+    <div class="my-4">
+      <a href="" class="hover:no-underline focus:no-underline underline text-brand">Presentation on accessibility and universal design at the University of Maryland, Baltimore County</a>
+    </div>
+    <div class="my-4">
+      <a href="" class="hover:no-underline focus:no-underline underline text-brand">Paper titled, "Rapid Transitions: Experiences with Accessibility and Special Education during the COVID-19 Crisis"</a>
+    </div>
+  </section>
+
+  <div class="grid grid-cols-5 gap-4 mt-12">
+    <div class="bg-brand text-white col-span-2 p-4">
+      <section>
+        <h3 class="text-lg font-bold m-4">What people say about me</h3>
+
+        {%- for testimonial in site.data.testimonials -%}
+          {% include testimonial.html testimonial=testimonial %}
+        {% endfor %}
+      </section>
+    </div>
+    <div class="col-span-3">
+      <div class="grid grid-cols-2 gap-4 place-items-center">
+          <div class="col-span-1">
+              <img src="/assets/images/SV_with_Haben_Girma.webp"/>
+          </div>
+          <div class="col-span-1 pr-4">
+            <section>
+              <h3 class="text-brand font-bold text-lg">A lightbulb moment </h3>
+              <p class="font-light">Meeting Haben Girma in 2019 changed my perspective on Accessibility. I shifted my focus from disabilities to the barriers people with disabilities face.</p>
+            </section>
+          </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4 place-items-center mt-12">
+        <div class="col-span-1 pl-4">
+          <section>
+            <h3 class="text-brand font-bold text-lg text-right">A prized possesion</h3>
+            <p class="font-light text-right">Whitney Quesenbery, author of "A Web for Everyone: Designing Accessible User Experiences," attended my talk on " The 7 colors of the accessibility rainbow" at DCUX'19 and gave me a signed copy of her book. Her message is a source of encouragement for me.</p>
+          </section>
+        </div>
+        <div class="col-span-1">
+          <img class="shadow-xl border-white border-8" src="/assets/images/WQ_signed_first_page.webp"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="my-12">
+    In my free time, I cook. A lot. It's my way of unwinding, experimenting, exploring cultures, showing love, and feeling closer to my family in India. Here are some pictures:
+  </section>
+
+  <div class="grid grid-cols-4 gap-1 place-items-center">
+    <div>
+      <figure class="text-center">
+        <img class="shadow-lg rounded-full h-48 w-48 object-cover m-auto" src="assets/images/kerala-fish-curry.webp"/>
+        <figcaption class="text-brand text-xs font-light mt-2 px-4">
+          Kerala-style fish curry, Matta rice, and Rassam
+        </figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="text-center">
+        <img class="shadow-lg rounded-full h-48 w-48 object-cover m-auto" src="assets/images/veg-thali.webp"/>
+        <figcaption class="text-brand text-xs font-light mt-2 px-4">
+          North Indian vegetarian thali
+        </figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="text-center">
+        <img class="shadow-lg rounded-full h-48 w-48 object-cover m-auto" src="assets/images/jjigae.webp"/>
+        <figcaption class="text-brand text-xs font-light mt-2 px-4">
+          Korean Sundubu-jjigae
+        </figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="text-center">
+        <img class="shadow-lg rounded-full h-48 w-48 object-cover m-auto" src="assets/images/steamed-fish.webp"/>
+        <figcaption class="text-brand text-xs font-light mt-2 px-4">
+          Thai steamed fish
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <section class="my-12">
+    I also enjoy home improvement projects, satirical news shows, and reading. I'm currently reading "Three Thousand Stitches" by Sudha Murty.
+  </section>
+</div>
+

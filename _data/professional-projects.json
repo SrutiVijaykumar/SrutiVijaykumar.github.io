@@ -1,0 +1,35 @@
+[
+    {
+        "title": "UX Research for Medical Devices",
+        "tags": ["Physical Computing", "Accessibility", "UX Research and Design"],
+        "description": "Summative usability evaluations to examine how safe foreign medical devices are to launch in the U.S. market.",
+        "image-link": "assets/images/stethoscope.jpeg",
+        "image-description": "Stethoscope, a medical device of doctors.",
+        "cta": "Learn more about UX research for medical devices",
+        "cta-link": "#",
+        "image-sequence": "first",
+        "content-sequence": "last"
+    },
+    {
+        "title": "UX Research For A Mailing And Shipping Website",
+        "tags": ["Accessibility", "UX Research & Design", "Cross-functional team"],
+        "description": "Formative usability study for the content strategy of a mailing and shipping website.",
+        "image-link": "assets/images/Packages.webp",
+        "image-description": "Stacked shipping packages",
+        "cta": "Learn more about the website",
+        "cta-link": "#",
+        "image-sequence": "last",
+        "content-sequence": "first"
+    },
+    {
+        "title": "Accessibility Audits And Remediation",
+        "tags": ["Design Thinking", "UX Research", "Public Policy"],
+        "description": "An overview of accessibility work I did at UserWorks.",
+        "image-link": "assets/images/A11yCollage.webp",
+        "image-description": "Keywords related to accessibility",
+        "cta": "Learn more about prototyping policies",
+        "cta-link": "#",
+        "image-sequence": "first",
+        "content-sequence": "last"
+    }
+]

@@ -2,25 +2,38 @@
 layout: default
 title: WIP | Home | Sruti Vijaykumar
 ---
-<div class="py-12">
-<p class="text-3xl text-center font-thin leading-relaxed font-intro">I'm a <strong class="font-bold">UX and Accessibility Specialist</strong><br/>
-  on a mission to make technology<br/>
-  enjoyable and inclusive<br/>
-  using human-centered research.<br/>
-</p>
+
+<div class="grid lg:grid-cols-4 grid-cols-1 gap-1 lg:mx-20 mt-12 mb-4 place-items-center">
+  <div class="col-span-1">
+    <div class="w-56">
+      <img src="assets/images/me.webp" alt="Sruti sitting on chair in office." class="shadow-lg rounded-full h-56 w-56 object-cover border-none" />
+    </div>
+  </div>
+  <p class="text-xl lg:col-span-3 font-thin leading-relaxed font-intro">
+    Welcome to my portfolio! I am a <strong class="font-bold">UX Specialist</strong> with a focus on <strong class="font-bold">qualitative research and web accessibility.</strong><br>
+    I empower tech teams to build efficient and inclusive products through human-centered research.
+  </p>
 </div>
 
-{%- for project in site.data.projects -%}
-
-<div class="bg-white grid lg:grid-cols-2 grid-cols-1 lg:mx-20 mb-12 rounded shadow">
-  <div class="m-12">
-    <h3 class="text-2xl font-bold py-4">{{ project.title }}</h3>
-    <p class="text-xs font-bold text-gray-600 py-6 lg:order-{{ project.content-sequence }}">{{ project.tags | join: ", " }}</p>
-    <p class="text-gray-500 pb-8">{{ project.description }}</p>
-    <a href="{{ project.cta-link }}" class="hover:no-underline focus:no-underline underline text-brand">{{ project.cta }}</a>
-  </div>
-  <div class="m-12 overflow-hidden rounded-2xl lg:order-{{ project.image-sequence }}">
-    <img src="{{ project.image-link }}" alt="{{ project.image-description }}" class="hover:opacity-75 transform duration-700 ease-in-out hover:scale-110"/>
-  </div>
+<h2 class="text-brand text-center text-3xl font-medium mt-12"> Professional Projects</h2>
+<div class="flex justify-center mx-28 mb-8">
+  <hr class="border-brand w-3/4">
 </div>
-{% endfor %}
+
+<div class="lg:mx-20 grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+  {%- for project in site.data.professional-projects -%}
+    {% include project.html project=project %}
+  {% endfor %}
+</div>
+
+<h2 class="text-brand text-center text-3xl font-medium mt-12"> Volunteer Work</h2>
+<div class="flex justify-center mx-28 mb-8">
+  <hr class="border-brand w-3/4">
+</div>
+
+
+<div class="lg:mx-20 grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+  {%- for project in site.data.volunteer-work -%}
+    {% include project.html project=project %}
+  {% endfor %}
+</div>
