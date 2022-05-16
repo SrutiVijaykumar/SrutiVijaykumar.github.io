@@ -6,7 +6,7 @@
       "image-link": "assets/images/TalkBox.jpg",
       "image-description": "Internals of talkbox showing circuitry and touch panels.",
       "cta": "Learn more about TalkBox",
-      "cta-link": "#",
+      "cta-link": "/communication-diy-board",
       "image-sequence": "first",
       "content-sequence": "last"
   },
