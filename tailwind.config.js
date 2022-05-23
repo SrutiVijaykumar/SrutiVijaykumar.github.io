@@ -1,10 +1,4 @@
 module.exports = {
-  purge: [
-    './_includes/**/*.html',
-    './_layouts/**/*.html',
-    './_posts/*.md',
-    './*.html',
-  ],
   prefix: '',
   important: false,
   separator: ':',
@@ -516,6 +510,12 @@ module.exports = {
       }
     },
   },
-  corePlugins: {},
-  plugins: [],
+  content: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './_posts/*.md',
+    './projects/*.html',
+    './*.html',
+  ],
+  plugins: []
 }
