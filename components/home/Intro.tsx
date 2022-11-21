@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from '../public/images/me.webp'
+import profilePic from '../../public/images/me.webp'
 import Image from 'next/image'
 import { Barlow } from '@next/font/google'
 

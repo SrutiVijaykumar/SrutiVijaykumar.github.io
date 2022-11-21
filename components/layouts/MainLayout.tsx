@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
-import Header from '../Header'
-import Footer from '../Footer'
+import Header from '../shared/Header'
+import Footer from '../shared/Footer'
 import Head from 'next/head'
 
 interface Props {

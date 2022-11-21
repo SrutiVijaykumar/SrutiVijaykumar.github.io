@@ -1,12 +1,12 @@
 import React from 'react'
 
 import MainLayout from '../components/layouts/MainLayout'
-import SectionHeader from '../components/SectionHeader'
-import ProjectGrid from '../components/ProjectGrid'
+import SectionHeader from '../components/home/SectionHeader'
+import ProjectGrid from '../components/home/ProjectGrid'
 
 import { projects } from '../data/projects'
 import { volunteerWork } from '../data/volunteer_work'
-import Intro from '../components/Intro'
+import Intro from '../components/home/Intro'
 
 const Home = (): JSX.Element => {
   return (
