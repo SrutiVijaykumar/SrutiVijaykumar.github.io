@@ -16,3 +16,11 @@ export interface Cta {
   description: string
   link: string
 }
+
+export interface Testimonial {
+  id: number
+  name: string
+  job_title: string
+  full_quote: string
+  excerpt: string
+}
