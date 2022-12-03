@@ -21,7 +21,7 @@ const ProjectLayout = ({ children, title = "Sruti's Portfolio" }: Props): JSX.El
     <title>{title}</title>
   </Head>
   <Header />
-  <div className="antialiased bg-gray-50 container mx-auto">
+  <div className="antialiased bg-gray-50 container mx-auto h-full pb-6">
     <main>{children}</main>
   </div>
   <Footer />

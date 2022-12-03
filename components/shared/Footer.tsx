@@ -9,7 +9,7 @@ const sacramento = Sacramento({
 
 const Footer = (): JSX.Element => {
   return (
-    <footer className="bg-brand text-white text-center lg:text-left mt-6 pb-6">
+    <footer className="bg-brand text-white text-center lg:text-left pb-6">
       <div className="text-center p-4">
         <span className="text-xs">© May 2022 by</span> <span className={`font-bold text-xl font-logo ${sacramento.variable}`}>Sruti Vijaykumar</span>
       </div>
@@ -17,10 +17,10 @@ const Footer = (): JSX.Element => {
       <div className="grid grid-cols-1 lg:grid-cols-4 place-items-auto lg:mx-40">
         <div>
           <div className="my-4">
-            <Link className="underline focus:no-underline hover:no-underline text-xl font-bold" href="/about.html">About</Link>
+            <Link className="underline focus:no-underline hover:no-underline text-xl font-bold" href="/about">About</Link>
           </div>
           <div className="my-4">
-            <Link className="underline focus:no-underline hover:no-underline text-xl font-bold" href="/contact.html">Contact</Link>
+            <Link className="underline focus:no-underline hover:no-underline text-xl font-bold" href="/contact">Contact</Link>
           </div>
           <div className="my-4">
             <Link className="underline focus:no-underline hover:no-underline text-xl font-bold" href="/assets/docs/SrutiVijayKumarResume.pdf">Resume</Link>
@@ -42,7 +42,7 @@ const Footer = (): JSX.Element => {
                 <Link className="underline focus:no-underline hover:no-underline text-sm" href="/uxr-shipping-website">UX Research For A Mailing & Shipping Website</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/accessibility-audits-remediation">Accessibility Audits & Remediation</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/projects/accessibility-audits-remediation">Accessibility Audits & Remediation</Link>
               </div>
             </div>
             <div>
@@ -50,7 +50,7 @@ const Footer = (): JSX.Element => {
                 <Link className="underline focus:no-underline hover:no-underline text-base font-bold" href="/#volunteer-work">Volunteer Work</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/communication-diy-board">TalkBox: A DIY Communication Board</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/projects/communication-diy-board">TalkBox: A DIY Communication Board</Link>
               </div>
               <div className="my-2">
                 <Link className="underline focus:no-underline hover:no-underline text-sm" href="/website-for-a-non-profit">Accessible Website For STEAM Success Foundation</Link>
