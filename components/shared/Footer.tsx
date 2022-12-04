@@ -23,7 +23,7 @@ const Footer = (): JSX.Element => {
             <Link className="underline focus:no-underline hover:no-underline text-xl font-medium" href="/contact">Contact</Link>
           </div>
           <div className="my-4">
-            <Link className="underline focus:no-underline hover:no-underline text-xl font-medium" href="/assets/docs/SrutiVijayKumarResume.pdf">Resume</Link>
+            <Link className="underline focus:no-underline hover:no-underline text-xl font-medium" href="/docs/SrutiVijayKumarResume.pdf">Resume</Link>
           </div>
         </div>
         <div className="place-items-auto col-span-3">
@@ -36,10 +36,10 @@ const Footer = (): JSX.Element => {
                 <Link className="underline focus:no-underline hover:no-underline text-base font-medium" href="/#professional-projects">Professional Projects</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/uxr-medical-devices">UX Research For Medical Devices</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/projects/uxr-medical-devices">UX Research For Medical Devices</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/uxr-shipping-website">UX Research For A Mailing & Shipping Website</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/projects/uxr-shipping-website">UX Research For A Mailing & Shipping Website</Link>
               </div>
               <div className="my-2">
                 <Link className="underline focus:no-underline hover:no-underline text-sm" href="/projects/accessibility-audits-remediation">Accessibility Audits & Remediation</Link>
@@ -50,13 +50,13 @@ const Footer = (): JSX.Element => {
                 <Link className="underline focus:no-underline hover:no-underline text-base font-medium" href="/#volunteer-work">Volunteer Work</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/projects/communication-diy-board">TalkBox: A DIY Communication Board</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/volunteer_work/communication-diy-board">TalkBox: A DIY Communication Board</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/website-for-a-non-profit">Accessible Website For STEAM Success Foundation</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/volunteer_work/website-for-a-non-profit">Accessible Website For STEAM Success Foundation</Link>
               </div>
               <div className="my-2">
-                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/">Design Thinking To Influence Policies</Link>
+                <Link className="underline focus:no-underline hover:no-underline text-sm" href="/volunteer_work/uxr-for-a-policy-change">Design Thinking To Influence Policies</Link>
               </div>
             </div>
           </div>

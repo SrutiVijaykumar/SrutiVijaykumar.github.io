@@ -12,7 +12,7 @@ export const projects: Project[] = [
     },
     cta: {
       description: 'Learn more about UX research for medical devices',
-      link: '/uxr-medical-devices'
+      link: 'projects/uxr-medical-devices'
     }
   },
   {
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     },
     cta: {
       description: 'Learn more about the website',
-      link: '/uxr-shipping-website'
+      link: 'projects/uxr-shipping-website'
     }
   },
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     },
     cta: {
       description: 'Learn more about prototyping policies',
-      link: '/accessibility-audits-remediation'
+      link: 'projects/accessibility-audits-remediation'
     }
   }
 ]

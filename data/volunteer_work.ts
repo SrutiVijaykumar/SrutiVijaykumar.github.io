@@ -12,7 +12,7 @@ export const volunteerWork: Project[] = [
     },
     cta: {
       description: 'Learn more about TalkBox',
-      link: '/communication-diy-board'
+      link: 'volunteer_work/communication-diy-board'
     }
   },
   {
@@ -26,7 +26,7 @@ export const volunteerWork: Project[] = [
     },
     cta: {
       description: 'Learn more about the website',
-      link: '/website-for-a-non-profit'
+      link: 'volunteer_work/website-for-a-non-profit'
     }
   },
   {
@@ -40,7 +40,7 @@ export const volunteerWork: Project[] = [
     },
     cta: {
       description: 'Learn more about prototyping policies',
-      link: '/'
+      link: 'volunteer_work/uxr-for-a-policy-change'
     }
   }
 ]
