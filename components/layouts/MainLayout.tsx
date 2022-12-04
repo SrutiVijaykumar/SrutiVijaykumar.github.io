@@ -21,7 +21,7 @@ const Layout = ({ children, title = "Sruti's Portfolio" }: Props): JSX.Element =
     <title>{title}</title>
   </Head>
   <Header />
-  <div className="antialiased container mx-auto">
+  <div className="antialiased container mx-auto h-full pb-12">
     <main className="mx-6 lg:mx-20">{children}</main>
   </div>
   <Footer />
