@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import ProjectLayout from '../../components/layouts/ProjectLayout'
 import ProjectCover from '../../components/projects/ProjectCover'
 import ProjectFigure from '../../components/projects/ProjectFigure'
@@ -14,6 +15,8 @@ import finalPage from '../../public/images/Final_page.webp'
 import teamMeeting from '../../public/images/Team_Meeting.webp'
 import usabilityTest from '../../public/images/Usability_Testing.webp'
 import DownArrowSvg from '../../components/projects/DownArrowSvg'
+import timelineImg from '../../public/images/timeline_project_non_profit.webp'
+import meetingNotes from '../../public/images/Meeting_Notes.webp'
 
 const WebsiteForANonProfit = (): JSX.Element => {
   return (
@@ -52,12 +55,12 @@ const WebsiteForANonProfit = (): JSX.Element => {
 
         <ProjectSection title="Process and Contribution">
           <figure className="mt-6">
-            <img src="/images/timeline_project_non_profit.webp" alt="Timeline of my contribution." className="w-full"/>
+            <Image src={timelineImg} alt="Timeline of my contribution." className="w-full"/>
           </figure>
         </ProjectSection>
 
         <ProjectSection title="Training to become an Accessibility Ninja">
-          <p>I took lessons with Knowbility’s Sr. Accessibility Strategist, Becky Gibson on how to make any website compliant with WCAG 2.0. It was thrilling to be mentored by a person who contributed to the creation of WCAG 2.0 and the Accessible Rich Internet Applications (ARIA) specification.</p>
+          <p>I took lessons with Knowbility&apos;s Sr. Accessibility Strategist, Becky Gibson on how to make any website compliant with WCAG 2.0. It was thrilling to be mentored by a person who contributed to the creation of WCAG 2.0 and the Accessible Rich Internet Applications (ARIA) specification.</p>
         </ProjectSection>
 
         <ProjectSection title="Stakeholder interviews">
@@ -89,7 +92,7 @@ const WebsiteForANonProfit = (): JSX.Element => {
           <figure className="mt-6">
             <div className="grid grid-cols-1 lg:px-40">
               <div>
-                <img src="/images/Meeting_Notes.webp" alt="Meeting notes"/>
+                <Image src={meetingNotes} alt="Meeting notes"/>
               </div>
             </div>
           </figure>
@@ -115,7 +118,7 @@ const WebsiteForANonProfit = (): JSX.Element => {
           <figure className="mt-6">
             <div className="grid grid-cols-1 lg:px-40">
               <div>
-                <img src="/images/Project_plan_screenshot.webp" alt="Screenshot of project plan"/>
+                <Image src="/images/Project_plan_screenshot.webp" alt="Screenshot of project plan"/>
               </div>
             </div>
           </figure>
@@ -247,10 +250,10 @@ const WebsiteForANonProfit = (): JSX.Element => {
 
           <div className="grid lg:grid-cols-2 my-8 gap-4">
             <div>
-              <img src="/images/Home_Page.webp" alt="Home page of STEAM success foundation website"/>
+              <Image src="/images/Home_Page.webp" alt="Home page of STEAM success foundation website"/>
             </div>
             <div>
-              <img src="/images/Donate_Page.webp" alt="Donation information page of STEAM success foundation website"/>
+              <Image src="/images/Donate_Page.webp" alt="Donation information page of STEAM success foundation website"/>
             </div>
           </div>
         </ProjectSection>

@@ -16,6 +16,7 @@ import recipientsImg from '../../public/images/Recipients.webp'
 import concertImg from '../../public/images/Concert.webp'
 import successImg from '../../public/images/Success.webp'
 import expectedOutcomeImg from '../../public/images/ExpectedOutCome.webp'
+import processImage from '../../public/images/Process.webp'
 
 const UXRForAPolicyChange = (): JSX.Element => {
   return (
@@ -52,7 +53,7 @@ const UXRForAPolicyChange = (): JSX.Element => {
 
         <ProjectSection title="Process">
           <figure className="mt-6">
-            <img src="/images/Process.webp" alt="Complete process of the project" className="w-full"/>
+            <Image src={processImage} alt="Complete process of the project" className="w-full"/>
           </figure>
         </ProjectSection>
 
