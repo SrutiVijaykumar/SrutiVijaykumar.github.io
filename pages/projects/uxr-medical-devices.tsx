@@ -54,7 +54,7 @@ const UXRMedicalDevices = (): JSX.Element => {
         </ProjectSection>
 
         <ProjectSection title="Conclusion">
-          <p>Overall, the device is a safe to use, effective device that medical professionals can be expected to use without error in most cases. However, there are some opportunities for improvement in the device's usability.</p>
+          <p>Overall, the device is a safe to use, effective device that medical professionals can be expected to use without error in most cases. However, there are some opportunities for improvement in the device&apos;s usability.</p>
         </ProjectSection>
 
         <ProjectSection title="Three Key Insights">

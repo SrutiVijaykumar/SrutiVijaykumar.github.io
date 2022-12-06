@@ -9,13 +9,13 @@ import ProjectSubSection from '../../components/projects/ProjectSubSection'
 import SectionList from '../../components/projects/SectionList'
 
 import policyCover from '../../public/images/PolicyChange.png'
-import postItsImg from '../../public/images/Postits.webp'
+import postItsImg from '../../public/images/PostIts.webp'
 import aliceImg from '../../public/images/Alice.webp'
 import giBillImg from '../../public/images/GIBill.webp'
 import recipientsImg from '../../public/images/Recipients.webp'
 import concertImg from '../../public/images/Concert.webp'
 import successImg from '../../public/images/Success.webp'
-import expectedOutcomeImg from '../../public/images/ExpectedOutcome.webp'
+import expectedOutcomeImg from '../../public/images/ExpectedOutCome.webp'
 
 const UXRForAPolicyChange = (): JSX.Element => {
   return (
