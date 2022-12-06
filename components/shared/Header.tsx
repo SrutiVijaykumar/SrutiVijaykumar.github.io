@@ -35,7 +35,7 @@ const Header = (): JSX.Element => {
           <li><Link className="lg:p-6 py-3 px-0 block border-b-2 border-transparent hover:border-brand hover:text-gray-700 focus:border-brand focus:text-gray-700 font-bold text-2xl"
               href="/contact">Contact</Link></li>
           <li><Link className="lg:p-6 py-3 px-0 block border-b-2 border-transparent hover:border-brand hover:text-gray-700 focus:border-brand focus:text-gray-700 font-bold text-2xl"
-              href="/assets/docs/SrutiVijayKumarResume.pdf" target="_blank">Resume</Link></li>
+              href="/docs/SrutiVijayKumarResume.pdf" target="_blank">Resume</Link></li>
         </ul>
       </nav>
     </div>
