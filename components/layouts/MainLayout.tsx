@@ -20,9 +20,12 @@ const Layout = ({ children, title = "Sruti's Portfolio" }: Props): JSX.Element =
     <meta name="theme-color" content="#ffffff"/>
     <title>{title}</title>
   </Head>
+  <a href="#content" className="sr-only focus:not-sr-only">
+    Skip to main content
+  </a>
   <Header />
   <div className="antialiased container mx-auto h-full pb-12">
-    <main className="mx-6 lg:mx-20">{children}</main>
+    <main id="content" className="mx-6 lg:mx-20">{children}</main>
   </div>
   <Footer />
   </>

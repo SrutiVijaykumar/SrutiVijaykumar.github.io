@@ -20,9 +20,12 @@ const ProjectLayout = ({ children, title = "Sruti's Portfolio" }: Props): JSX.El
     <meta name="theme-color" content="#ffffff"/>
     <title>{title}</title>
   </Head>
+  <a href="#content" className="sr-only focus:not-sr-only">
+    Skip to main content
+  </a>
   <Header />
   <div className="antialiased bg-gray-50 container mx-auto h-full pb-12">
-    <main>{children}</main>
+    <main id="content">{children}</main>
   </div>
   <Footer />
   </>
