@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Sacramento } from '@next/font/google'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const sacramento = Sacramento({
   weight: '400',
@@ -8,10 +8,17 @@ const sacramento = Sacramento({
 })
 
 const Footer = (): JSX.Element => {
+  const [year, setYear] = useState(new Date().getFullYear())
+
+  useEffect(() => {
+    // Update the year when the component mounts
+    setYear(new Date().getFullYear())
+  }, [])
+
   return (
     <footer className="bg-brand text-white text-center lg:text-left pb-6">
       <div className="text-center p-4">
-        <span className="text-xs">© May 2022 by</span> <span className={`font-medium text-xl font-logo ${sacramento.variable}`}>Sruti Vijaykumar</span>
+        <span className="text-xs">© {year} by</span> <span className={`font-medium text-xl font-logo ${sacramento.variable}`}>Sruti Vijaykumar</span>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 place-items-auto lg:mx-40">

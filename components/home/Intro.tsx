@@ -16,7 +16,7 @@ const Intro = (): JSX.Element => {
         <Image src={profilePic} alt="Sruti sitting on chair in office." className="shadow-lg rounded-full h-56 w-56 object-cover border-none" />
       </div>
     </div>
-    <p className={`text-xl lg:col-span-3 font-thin leading-relaxed font-intro ${barlow.variable}`}>
+    <p className={`text-xl lg:col-span-3 leading-relaxed font-intro ${barlow.variable}`}>
       Welcome to my portfolio! I am a <strong className="font-bold">UX Specialist</strong> with a focus on <strong className="font-bold">qualitative research and web accessibility.</strong><br/>
       I empower tech teams to build efficient and inclusive products through human-centered research.
     </p>
